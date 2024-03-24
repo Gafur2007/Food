@@ -1,0 +1,85 @@
+.contact {
+  padding-bottom: 117px;
+  background: rgb(234, 210, 185);
+  text-align: center;
+  padding-top: 115px;
+  padding-right: 70px;
+  padding-left: 5px;
+
+  .container {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.contact__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  opacity: 0.7;
+  color: rgb(220, 120, 11);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 46px;
+  color: rgb(21, 12, 1);
+  font-family: "Philosopher";
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 40.6px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.contact__input {
+  max-width: 750px;
+  width: 100%;
+  border: none;
+  padding: 30px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40.6px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: relative;
+}
+
+.contact__btn {
+  position: absolute;
+  margin-left: -150px;
+  border: none;
+  padding: 30px 57px;
+  border-radius: 10px;
+  background: rgb(220, 120, 11);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40.6px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+@media (max-width: 360px) {
+  .contact__flex {
+    flex-direction: column;
+  }
+
+  .contact__btn {
+    margin-top: 110px;
+    right: 25%;
+  }
+}

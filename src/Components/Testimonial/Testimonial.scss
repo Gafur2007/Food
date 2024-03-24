@@ -1,0 +1,104 @@
+.testimonial .container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.test__text {
+  margin: 0;
+  padding: 0;
+  opacity: 0.7;
+  margin-bottom: 12px;
+  color: rgb(220, 120, 11);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.test__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  color: rgb(0, 0, 0);
+  font-family: "Philosopher";
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.test__text2 {
+  margin: 0;
+  padding: 0;
+  opacity: 0.7;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.test__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.test__flex__text {
+  margin: 0;
+  padding: 0;
+  max-width: 526px;
+  width: 100%;
+}
+
+.test__flex__img {
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.test__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 6px;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.test__finish__text {
+  margin: 0;
+  padding: 0;
+  opacity: 0.7;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@media (max-width:760px) {
+    .testimonial {
+        margin-top: 530px;
+
+        
+    }
+}
+
+@media (max-width: 442px) {
+    .testimonial {
+        padding-top:1px;
+
+    }
+}

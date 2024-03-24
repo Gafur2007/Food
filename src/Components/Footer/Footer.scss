@@ -1,0 +1,65 @@
+.footer {
+  background: rgb(37, 37, 37);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 137px;
+    padding-bottom: 104px;
+  }
+}
+
+.footer__link {
+  margin-top: 17px;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  &:hover {
+    color: #ff0000;
+
+  }
+}
+
+.footer__heading {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Philosopher";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer__flex {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+@media (max-width:550px) {
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__heading {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer__link {
+        text-align: center;
+    }
+
+    .footer__flex {
+        justify-content: center;
+    }
+}
